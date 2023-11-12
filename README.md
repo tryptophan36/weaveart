@@ -1,44 +1,30 @@
-# Arweave StarterKit
+# WeaveArt
 
-Fast track your journey to building decentralized applications on Arweave with the Arweave StarterKit. A CLI tool that effortlessly sets up an entire application, harnessing the power of [NextJS](https://nextjs.org/) as the framework, [Shadcn UI](https://ui.shadcn.com/) for a sleek and aesthetic interface, and [ArweaveKit](https://arweavekit.com/?utm_source=Github&utm_medium=StarterKit+Repo&utm_campaign=Create-Arweave-App+StarterKit+Docs&utm_id=Create-Arweave-App+StarterKit+Docs) to seamlessly interact with the Arweave ecosystem.
-
-## Getting Started
-
-First, run the development:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+WeaveArt is a creative platform where artists can share their visual and auditory masterpieces with the world. Inspired by the Permaweb and powered by Arweave, WeaveArt provides a decentralized and permanent space for artists to showcase their work, allowing viewers to appreciate and support their favorite creators.
 
 **Landing Page:** A form that allows users to upload Atomic assets on Arweave, complete with various metadata configurations.
+All file types Image, Audio, Video is supported.
 
-![Landing Page Form Preview](./public/landing-preview.png)
+
+![Screenshot 2023-11-12 211401](https://github.com/tryptophan36/weaveart/assets/100468551/5951679a-8329-4ee0-91f4-f76bd65194d7)
+
 
 **View Page:** A dedicated space to view the uploaded assets and engage with them through on-chain likes (known as stamps) and comments.
 
-![View Page Preview](./public/view-preview.png)
+![Screenshot 2023-11-12 211443](https://github.com/tryptophan36/weaveart/assets/100468551/de09019d-6bc4-4cec-9895-004c27e4d866)
 
-Start editing the page by modifying `app/page.tsx` or `pages/index.ts`, as per your NextJS config.
 
-## Why use a StarterKit?
+## Features
 
-Building DApps from scratch can be a daunting task. From setting up the environment to ensuring compatibility across different components, the process can be time-consuming. A starter kit provides a pre-configured foundation, enabling developers to focus on building unique features and functionalities rather than the underlying setup.
+- **Decentralized Hosting:** WeaveArt utilizes the Permaweb, a decentralized and permanent web storage solution built on top of Arweave. This ensures that your artwork remains accessible and immutable over time.
 
-## What are the key components of the StarterKit?
+- **Artwork Variety:** Whether it's stunning images, captivating audio compositions, or mesmerizing videos, WeaveArt embraces a diverse range of artistic expressions.
 
-- **Navbar:** A built-in navigation bar that integrates with [Arweave Wallet Kit](https://docs.arweavekit.com/wallets/wallet-kit?utm_source=Github&utm_medium=StarterKit+Repo&utm_campaign=Create-Arweave-App+StarterKit+Docs&utm_id=Create-Arweave-App+StarterKit+Docs), enabling users to connect to and interact with the DApp effortlessly.
+- **Appreciation through Donations:** Viewers can express their appreciation for artists by making secure and transparent donations. Powered by Arweave, these transactions are permanently recorded on the blockchain.
 
-- **Landing Page:** A landing page featuring a form, typesafed with [Zod](https://zod.dev/) schemas. Users can upload images and add metadata, which is then posted to the Arweave network as an [atomic asset](https://cookbook.arweave.dev/concepts/atomic-tokens.html).
 
-- **Atomic Assets and Contracts:** Each asset is paired with an associated contract, enabling alterations to the metadata and transfer of ownership.
+
+
 
   The created project is initialized with a contract which is located at `src/contracts`. You can make necessary modifications to the contract code according to your needs and run the script `deploy-contracts` to automatically update the contract linked functionality to the new one.
 
@@ -55,8 +41,3 @@ Building DApps from scratch can be a daunting task. From setting up the environm
 
 The true strength of this kit lies in its modularity. Simply interchange the core asset from image to music and transform an image sharing application to a music hub. Or swap in for videos to create a streaming service. As any form of data can be uploaded to the Arweave network, the possibilities are limitless.
 
-## Start Building
-
-Ready to build your first application on Arweave? [Get started now!](https://github.com/labscommunity/starterkit/blob/main/apps/cli/README.md)
-
-Checkout the [ArweaveKit docs](https://docs.arweavekit.com/arweavekit/introduction?utm_source=Github&utm_medium=StarterKit+Repo&utm_campaign=Create-Arweave-App+StarterKit+Docs&utm_id=Create-Arweave-App+StarterKit+Docs) to customize the application and add more features and follow us on [X](https://twitter.com/CommunityLabs) to stay updated on all things Arweave.
