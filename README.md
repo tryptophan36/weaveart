@@ -1,4 +1,4 @@
-# WeaveArt
+# WeaveArt ( https://weaveart.vercel.app/ )
 
 WeaveArt is a creative platform where artists can share their visual and auditory masterpieces with the world. Inspired by the Permaweb and powered by Arweave, WeaveArt provides a decentralized and permanent space for artists to showcase their work, allowing viewers to appreciate and support their favorite creators.
 
