@@ -1,3 +1,4 @@
+
 import { Assets } from "@/components/assets";
 
 export const metadata = {
